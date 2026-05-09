@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body 
+            {
+                width: 800px;
+                margin:auto;
+           
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1> ĐĂNG KÝ THÔNG TIN CÁ NHÂN </h1>
+        <table style="width:100%;">
+            <tr>
+                <td style="width: 20%">Tài khoản</td>
+                <td style ="width: 80%">
+                    <input type ="text" style ="width:300px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 20%">Mật khẩu</td>
+                <td style ="width: 80%">
+                    <input type ="text" style ="width:300px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 20%">Nhập lại mật khẩu</td>
+                <td style ="width: 80%">
+                    <input type ="text" style ="width:300px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 20%">Email</td>
+                <td style ="width: 80%">
+                    <input type ="text" style ="width:300px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 20%">Họ tên</td>
+                <td style ="width: 80%">
+                    <input type ="text" style ="width:300px;">
+                </td>
+            </tr>
+            <tr>
+                <td style =" width : 20%;">Giới tính   
+                </td>
+                <td style ="width :80%;">
+                    <input type="radio"id="gtNam" name="GT" value="Nam"> <label for="css">Nam</label>
+                    <input type="radio"id="gtNu" name="GT" value="Nu"> <label for="css">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 20%">Quê quán</td>
+                <td style ="width: 80%">
+                    <label for="que"></label>
+                    <select id="que" name="que">
+                        <option vaule="Hà Nội">Hà Nội</option>
+                        <option vaule="Hải Phòng">Hải Phòng</option>
+                    </select>
+            </tr>
+            <tr>
+                <td style =" width : 20%;">Sở thích  
+                </td>
+                <td style ="width :80%;">
+                    <input type="checkbox"id="Điện ảnh" name="Điện ảnh" value="Điện ảnh"> <label for="css"> Điện ảnh</label>
+                    <input type="checkbox"id="Âm nhạc" name="Âm nhạc" value="Âm nhạc"> <label for="css"> Âm nhạc</label>
+                    <input type="checkbox"id="Thể thao" name="Thể thao" value="Thể thao"> <label for="css"> Thể thao</label>
+                    
+                </td>
+            </tr>
+              <tr>
+                <td style="width: 20%">Ghi chú</td>
+                <td style ="width: 80%">
+                     <textarea name ="mess" rows="4" cols="30"> </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 20%"></td>
+                <td style ="width: 70%">
+                    <button type="submit">Lưu</button>
+                    <button type="reset">Nhập lại</button>
+                   
+            </tr>
+            
+     </table>   
+    </body>
+</html>
